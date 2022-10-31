@@ -1,15 +1,21 @@
 {
-    "name": "zqphper/test",
+    "name": "zhangqiang/composer-test",
+    "description": "test",
     "autoload": {
         "psr-4": {
-            "Zqphper\\Test\\": "src/"
+            "Flower\\Rose\\": "src/Flower/Rose",
+            "Flower\\Lily\\": "src/Flower/Lily"
         }
     },
+    "minimum-stability": "dev",
     "authors": [
         {
             "name": "张强",
             "email": "454168610@qq.com"
         }
     ],
-    "require": {}
+    "require": {
+        "php": ">=5.3.0"
+    },
+    "license": "MIT"
 }
