@@ -6,7 +6,7 @@
  * Time: 21:38
  */
 
-namespace zqphper\test;
+namespace Flower;
 
 class Lily
 {
