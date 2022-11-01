@@ -10,6 +10,6 @@ class Robot
 {
     public function sayHello($name)
     {
-        echo 'hello,' . $name . PHP_EOL;
+        return 'hello,' . $name . PHP_EOL;
     }
 }
